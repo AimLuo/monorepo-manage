@@ -18,12 +18,21 @@
     "dev": "father doc dev",
     "start": "yarn run dev",
     "build": "father build",
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "commit":"git-cz",
+    "c":"yarn run commit"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
   },
   "peerDependencies": {
     "react": "16.x"
   },
   "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-lerna-changelog": "^2.0.2",
     "docz-theme-ztopia": "^0.1.3",
     "father": "^2.16.0",
     "lerna": "^3.19.0",
