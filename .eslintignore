@@ -1,0 +1,10 @@
+# 参考ant-design-pro-layout
+/lambda/mock/**
+/scripts
+/config
+example
+_test_
+node_modules
+es
+lib
+dist
