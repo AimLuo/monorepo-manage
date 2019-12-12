@@ -5,6 +5,9 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "peerDependencies": {
-    "react":"16.x"
+    "react": "16.x"
+  },
+  "dependencies": {
+    "@demo/umi-origin-test": "^0.0.0"
   }
 }
