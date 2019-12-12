@@ -21,7 +21,9 @@
     "lerna": "lerna",
     "commit": "git-cz",
     "c": "yarn run commit",
-    "lint-staged:js": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty"
+    "lint-staged:js": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty",
+    "preview:dev":"parcel example/index.html --port=2001 -d example/dist",
+    "preview:build":"parcel build example/index.html --public-url ./ -d dist/example"
   },
   "config": {
     "commitizen": {
@@ -57,6 +59,7 @@
     "husky": "^3.1.0",
     "lerna": "^3.19.0",
     "lint-staged": "^9.5.0",
+    "parcel-bundler": "^1.12.4",
     "typescript": "^3.3.3",
     "validate-commit-msg": "^2.14.0"
   },
