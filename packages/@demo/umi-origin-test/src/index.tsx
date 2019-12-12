@@ -1,5 +1,6 @@
 import React from 'react';
-import styles from './index.css';
+import './index.less';
+import styles from './index.module.less';
 
 export interface ButtonProps {
   size?: 'large' | 'default';
@@ -8,7 +9,8 @@ export interface ButtonProps {
 const Button: React.FC<ButtonProps> = function(props) {
   return (
     <button
-      className={styles.button}
+      type="button"
+      className={`button ${styles.bg}`}
       style={{
         fontSize: props.size === 'large' ? 40 : 20,
       }}
