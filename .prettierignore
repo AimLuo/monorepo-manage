@@ -1,5 +1,29 @@
+# create-umi时自动生成的文件
 **/*.md
 **/*.mdx
 package.json
 .umi
 .umi-production
+
+# 忽略配置文件
+.editorconfig
+.eslintcache
+.eslintignore
+.dockerignore
+.gitignore
+.prettierignore
+
+# 手动增加。其实没必要添加这些，因为我们一般不会手动去修改这些文件，这样不会触发编辑器保存时的自动修复。
+# 而这些文件我们在gitignore中已经忽略过了，不会被提交，而pre-commit时的操作我们只针对暂存区（lint-staged）的文件，所以也没有影响
+dist
+node_modules
+.DS_Store
+*.png
+*.toml
+docker
+Dockerfile*
+LICENSE
+*.lock
+yarn-error.log
+package-lock.json
+# 还可以添加其他
