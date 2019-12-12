@@ -1,0 +1,24 @@
+{
+  "name": "ml-core",
+  "version": "0.0.1",
+  "description": "核心仓库，包含组件，block，工具等",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "authors": {
+    "name": "aimluo",
+    "email": "aimluo@outlook.com"
+  },
+  "repository": "http://47.110.238.135:3080/web-front-end/ml-core.git",
+  "scripts": {
+    "dev": "father doc dev",
+    "build": "father build"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "father": "^2.16.0",
+    "typescript": "^3.3.3"
+  },
+  "license": "MIT"
+}
