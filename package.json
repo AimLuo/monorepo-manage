@@ -1,4 +1,8 @@
 {
+  "workspaces": [
+    "packages/@demo/*",
+    "packages/components"
+  ],
   "name": "ml-core",
   "version": "0.0.1",
   "description": "核心仓库，包含组件，block，工具等",
@@ -11,13 +15,16 @@
   "repository": "http://47.110.238.135:3080/web-front-end/ml-core.git",
   "scripts": {
     "dev": "father doc dev",
-    "build": "father build"
+    "start": "yarn run dev",
+    "build": "father build",
+    "lerna":"lerna"
   },
   "peerDependencies": {
     "react": "16.x"
   },
   "devDependencies": {
     "father": "^2.16.0",
+    "lerna": "^3.19.0",
     "typescript": "^3.3.3"
   },
   "license": "MIT"

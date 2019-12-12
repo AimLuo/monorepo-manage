@@ -1,0 +1,9 @@
+{
+  "packages": ["packages/@demo/*", "packages/components"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "publishConfig": {
+    "access": "public"
+  }
+}
