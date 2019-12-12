@@ -4,6 +4,9 @@
   "private": true,
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
+  "scripts": {
+    "parcel:dev":"parcel ./example/index.html -d example/dist"
+  },
   "peerDependencies": {
     "react": "16.x"
   },
