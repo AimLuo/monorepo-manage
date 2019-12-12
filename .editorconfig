@@ -1,0 +1,18 @@
+# http://editorconfig.org
+root = true
+# 记得安装vscode中的editorconfig插件
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf #换行符采用通用格式
+charset = utf-8
+trim_trailing_whitespace = true #删除行尾空格
+insert_final_newline = true #自动在页尾添加一行
+
+[*.md]
+trim_trailing_whitespace = false
+[*.mdx]
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab
