@@ -29,6 +29,7 @@ const options: IBundleOptions = {
       },
     ],
     // 改为这个主题是因为docz-them-umi有各种bug
+    // 这个主题会在控制台报：Module not found: Can't resolve '@microsoft/typescript-etw' in 'C:\my\my-code\ml-core\node_modules\prettier'，暂时未找到解决办法
     theme: 'docz-theme-ztopia',
     typescript: true,
     src: 'packages/',
