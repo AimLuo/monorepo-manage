@@ -18,12 +18,13 @@
     "dev": "father doc dev",
     "start": "yarn run dev",
     "build": "father build",
-    "lerna":"lerna"
+    "lerna": "lerna"
   },
   "peerDependencies": {
     "react": "16.x"
   },
   "devDependencies": {
+    "docz-theme-ztopia": "^0.1.3",
     "father": "^2.16.0",
     "lerna": "^3.19.0",
     "typescript": "^3.3.3"
