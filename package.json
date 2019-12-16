@@ -18,6 +18,7 @@
     "dev": "father doc dev",
     "start": "yarn run dev",
     "build": "father build",
+    "docs:build": "father doc build",
     "lerna": "lerna",
     "commit": "git-cz",
     "c": "yarn run commit",
