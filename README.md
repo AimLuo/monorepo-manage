@@ -11,4 +11,8 @@ TODO:
 记录了创建该项目时的一些流程，提供一些[参考](./docs/index.md)
 
 ## 私有仓库
-使用 `verdaccio` 搭建
+使用 [verdaccio](https://github.com/verdaccio/verdaccio) 搭建，具体操作不做赘述  
+如果没有条件搭建私有仓库，可以通过：
+1. 使用`yarn link`命令（已验证生产，不推荐）
+2. 使用`yarn workspace` + `git subtree`（已验证生产，推荐）
+3. 在`lerna publish`生命周期中执行脚本发布到`git`仓库，使用`yarn add <git remote url>`添加依赖（未开发，未验证）
