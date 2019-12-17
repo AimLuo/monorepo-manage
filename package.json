@@ -18,7 +18,7 @@
     "docs:build": "father doc build",
     "lerna": "lerna",
     "lerna:p": "lerna publish --no-push --no-commit-hooks",
-    "lerna:v":"lerna version --no-push --no-commit-hooks",
+    "lerna:v": "lerna version --no-push --no-commit-hooks",
     "commit": "git-cz",
     "c": "yarn run commit",
     "lint-staged:js": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty",
@@ -61,8 +61,8 @@
     "husky": "^3.1.0",
     "lerna": "^3.19.0",
     "lint-staged": "^9.5.0",
-    "parcel-bundler": "^1.12.4",
-    "typescript": "^3.3.3"
+    "typescript": "^3.3.3",
+    "umi": "^2.12.6"
   },
   "license": "MIT"
 }
