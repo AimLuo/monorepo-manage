@@ -1,11 +1,13 @@
 {
   "name": "@demo/umi-origin-test",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "peerDependencies": {
-    "react":"16.x"
+    "react": "16.x"
   },
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ]
 }

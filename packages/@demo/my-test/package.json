@@ -1,16 +1,16 @@
 {
   "name": "@demo/my-test",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "scripts": {
-    "parcel:dev":"parcel ./example/index.html -d example/dist"
+    "parcel:dev": "parcel ./example/index.html -d example/dist"
   },
   "peerDependencies": {
     "react": "16.x"
   },
   "dependencies": {
-    "@demo/umi-origin-test": "^0.0.0"
+    "@demo/umi-origin-test": "0.1.0"
   }
 }
