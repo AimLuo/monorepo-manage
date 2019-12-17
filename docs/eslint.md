@@ -1,11 +1,17 @@
 ## 步骤
 1. 安装[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)扩展
-2. 启用保存自动格式化
-    设置中找到`eslint`扩展，勾选保存自动修复格式化，会在`setting.json`中添加：
+2. 启用保存自动格式化  
+    直接在设置中搜索`editor.codeActionsOnSave`，然后添加：
     ```json
-    "eslint.autoFixOnSave": true
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
     ```
-3. 新建`.eslintrc.js`
+    对于`2.0.4`以下版本设置中找到`eslint`扩展，勾选保存自动修复格式化，会在`setting.json`中添加：
+    ```json
+      "eslint.autoFixOnSave": true
+    ```
+3. 新建`.eslintrc.js`  
     不使用扩展的创建功能，我们直接使用@umijs/fabric，配置如下：
     ```javascript
     module.exports = {
