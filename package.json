@@ -62,7 +62,8 @@
     "lerna": "^3.19.0",
     "lint-staged": "^9.5.0",
     "typescript": "^3.3.3",
-    "umi": "^2.12.6"
+    "umi": "^2.12.6",
+    "umi-plugin-react": "^1.14.9"
   },
   "license": "MIT"
 }

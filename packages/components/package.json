@@ -4,9 +4,11 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "scripts": {
-    "umi:dev":"umi dev"
+    "umi:dev": "umi dev"
   },
   "peerDependencies": {
+    "antd": "^3.26.3",
     "react": "16.x"
-  }
+  },
+  "devDependencies": {}
 }
