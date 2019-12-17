@@ -9,5 +9,5 @@
 8. 配置[lerna](./lerna.md)
 9. 配置[tsconfig](./tsconfing.md)
 10. 配置[git hooks](./git-hook.md)
-11. 增加[parcel](./parcel.md)调试
+11. 增加<del>[parcel](./parcel.md)调试</del>[umi](./umi.md)调试
 12. 生成版本号并发布[version](./lerna-version.md)
