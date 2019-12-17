@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "scripts": {
-    "parcel:dev": "parcel ./example/index.html -d example/dist"
+    "umi:dev": "umi dev"
   },
   "peerDependencies": {
     "react": "16.x"

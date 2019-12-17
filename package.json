@@ -22,8 +22,8 @@
     "commit": "git-cz",
     "c": "yarn run commit",
     "lint-staged:js": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty",
-    "preview:dev": "parcel example/index.html --port=2001 -d example/dist",
-    "preview:build": "parcel build example/index.html --public-url ./ -d dist/example"
+    "preview:dev": "umi dev",
+    "preview:build": "umi build"
   },
   "config": {
     "commitizen": {

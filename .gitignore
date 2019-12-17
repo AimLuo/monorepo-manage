@@ -4,6 +4,8 @@ pnpm-lock.yaml
 dist
 .docz
 node_modules
+.umi
+.umi-production
 
 
 # Created by https://www.gitignore.io/api/node,macos,windows,sublimetext,visualstudiocode
@@ -115,7 +117,7 @@ typings/
 # nuxt.js build output
 .nuxt
 
-# react / gatsby 
+# react / gatsby
 public/
 
 # vuepress build output
