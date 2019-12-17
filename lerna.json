@@ -5,6 +5,9 @@
   "useWorkspaces": true,
   "ignoreChanges": ["**/__fixtures__/**", "**/__tests__/**", "**/*.md", "**/example/**"],
   "command": {
+    "publish": {
+      "registry": "http://221.213.48.54:8180/pkg/"
+    },
     "version": {
       "exact": true,
       "message": "chore(release): publish",
