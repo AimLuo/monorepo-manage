@@ -20,6 +20,7 @@
     "build": "father build",
     "docs:build": "father doc build",
     "lerna": "lerna",
+    "lerna:ver":"lerna version --no-push --no-commit-hooks",
     "commit": "git-cz",
     "c": "yarn run commit",
     "lint-staged:js": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty",
