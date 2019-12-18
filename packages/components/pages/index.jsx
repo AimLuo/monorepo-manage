@@ -4,5 +4,5 @@ import './global.less';
 import { Layout as BasicLayout } from '../src';
 
 export default function() {
-  return <BasicLayout>基本布局</BasicLayout>;
+  return <BasicLayout>基本布局的路由类容</BasicLayout>;
 }

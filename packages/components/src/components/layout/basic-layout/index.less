@@ -1,0 +1,40 @@
+:global {
+  .basic-layout {
+    height: 100vh;
+    &_header {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      display: flex;
+      width: 100%;
+      padding-left: 20px;
+      color: #fff;
+      box-shadow: 0 1px 4px rgba(204, 51, 51, 1);
+      &-logo {
+        max-height: 48px;
+        vertical-align: middle;
+      }
+      &-title {
+        font-weight: 700;
+        font-size: 18px;
+        vertical-align: middle;
+      }
+      &-menu {
+        padding-top: 9px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
+        .ant-menu-item-selected,
+        .ant-menu-item-active {
+          color: #fff !important;
+          border-color: #fff !important;
+        }
+      }
+    }
+    &_sider-menu {
+      // TODO:修改滚动条样式
+      max-height: 100%;
+      overflow-y: auto;
+    }
+  }
+}
