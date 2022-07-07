@@ -1,3 +1,6 @@
+## 20220707 更新
+推荐 [yalc](https://github.com/wclr/yalc) 增强开发体验
+
 ## 项目说明
 1. 本项目基于[umijs/father](https://github.com/umijs/father)，用来开发**公用模块**
 2. 使用[lerna](https://github.com/lerna/lerna) + [yarn workspace](https://yarnpkg.com/zh-Hans/docs/workspaces)管理多模块
